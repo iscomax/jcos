@@ -505,3 +505,21 @@ a:focus {
 .diplomas{
 	margin: -11% 0;
 }
+
+@media screen and ( max-width:420px){
+	.codrops-links {
+		position: static;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: nowrap;
+	}
+}
+.cv{
+	width: 100%;
+}
+@media screen and ( min-width:848px){
+.cv{
+	width: 60%;
+}
+}
