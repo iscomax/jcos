@@ -510,10 +510,10 @@ a:focus {
 	.codrops-links {
 		position: static;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
 		white-space: nowrap;
-	}
+		
 }
 .cv{
 	width: 100%;
